@@ -4,7 +4,7 @@
     <title>Image Search Abstraction Layer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
+
 
 </head>
 <body>
@@ -25,11 +25,9 @@
     <div class="jumbotron" style="margin-bottom:0;">
         <div class="container">
             <div style="font-size: 1.4em;">
-                <h3>Choose File: </h3>
-                <button class="btn btn-default">Choose File</button>
-                <h3>Submit:</h3>
-                <button class="btn btn-default">Submit</button>
-               
+                <form method="post" enctype="multipart/form-data" action="/">
+                <p><input type="file" name="userFile" id="myfile">Choose File</input></p>
+                <p><input type="submit" name="send" id="sendFile">Submit</input></p>
             </div>
             
         </div>
