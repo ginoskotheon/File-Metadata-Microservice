@@ -1,0 +1,23 @@
+{
+  "name": "file_metadata_microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginoskotheon/File-Metadata-Microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginoskotheon/File-Metadata-Microservice/issues"
+  },
+  "homepage": "https://github.com/ginoskotheon/File-Metadata-Microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
+}
